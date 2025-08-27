@@ -1,5 +1,5 @@
 # Prompt 1
-Create a Node.js + Express API project with data stored in an array
+Create API with Node.js Express project with data stored in array
 
 ## Response
 Here’s an example of a Node.js + Express API that stores data in an array:
@@ -96,7 +96,7 @@ If you want, I can also create a Postman example collection for testing this API
 ---
 
 # Prompt 2
-Provide a `.gitignore` file suitable for a Node.js project
+create gitignore file for a project
 
 ## Response
 Sure! For a Node.js project, a typical .gitignore file looks like this:
@@ -142,7 +142,7 @@ Do you want me to also include build or dist folders if you plan to use them lat
 ---
 
 # Prompt 3
-Create a README.md file. 
+Create a README.md file 
 
 ## Response
 Sure! Here's a README.md for your Node.js + Express API project that stores data in an array:
