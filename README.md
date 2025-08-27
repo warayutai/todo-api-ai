@@ -9,16 +9,19 @@ A simple RESTful API built with **Node.js** and **Express** to manage a list of 
 ```bash
 git clone <your-repo-url>
 cd <repo-folder>
+```
 
 2. Install dependencies:
 
 ```bash
 npm install
+```
 
 3. Start the server:
 
 ```bash
 node server.js
+```
 
 Server runs on: http://localhost:3000
 
@@ -28,26 +31,31 @@ Get all items
 
 ```bash
 GET /items
+```
 
 Example:
 
 ```bash
 curl http://localhost:3000/items
+```
 
 Get item by ID
 
 ```bash
 GET /items/:id
+```
 
 Example:
 
 ```bash
 curl http://localhost:3000/items/1
+```
 
 Create a new item
 
 ```bash
 GET /items/:id
+```
 
 Body Example:
 
@@ -56,6 +64,7 @@ Body Example:
   "name": "New Item",
   "description": "Description here"
 }
+```
 
 Example:
 
@@ -63,11 +72,13 @@ Example:
 curl -X POST http://localhost:3000/items \
 -H "Content-Type: application/json" \
 -d '{"name":"New Item","description":"Description here"}'
+```
 
 Update an item
 
 ```bash
 PUT /items/:id
+```
 
 Body Example:
 
@@ -76,6 +87,7 @@ Body Example:
   "name": "Updated Name",
   "description": "Updated description"
 }
+```
 
 Example:
 
@@ -83,16 +95,19 @@ Example:
 curl -X PUT http://localhost:3000/items/1 \
 -H "Content-Type: application/json" \
 -d '{"name":"Updated Name","description":"Updated description"}'
+```
 
 Delete an item
 
 ```bash
 DELETE /items/:id
+```
 
 Example:
 
 ```bash
 curl -X DELETE http://localhost:3000/items/1
+```
 
 ## ⚡ Notes
 IDs are assigned automatically.
